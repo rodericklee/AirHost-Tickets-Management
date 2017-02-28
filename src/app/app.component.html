@@ -1,0 +1,125 @@
+<!-- Main navbar -->
+<div class="navbar navbar-inverse bg-teal">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="index.html"><img src="assets/images/airhost_log.png" alt=""></a>
+		<p class="navbar-version"><span class="label bg-warning-400">BETA</span></p>
+		<ul class="nav navbar-nav pull-right visible-xs-block">
+			<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
+			<li><a class="sidebar-mobile-main-toggle"><i class="icon-paragraph-justify3"></i></a></li>
+		</ul>
+	</div>
+
+	<div class="navbar-collapse collapse" id="navbar-mobile">
+		<ul class="nav navbar-nav">
+			<li>
+				<a class="sidebar-control sidebar-main-hide hidden-xs">
+					<i class="icon-paragraph-justify3"></i>
+				</a>
+			</li>
+		</ul>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li class="dropdown language-switch">
+				<a class="dropdown-toggle" data-toggle="dropdown">
+					<img src="assets/images/flags/us.png" class="position-left" alt="">
+					English
+					<span class="caret"></span>
+				</a>
+
+				<ul class="dropdown-menu">
+					<li><a class="deutsch"><img src="assets/images/flags/jp.png" alt=""> 日本語</a></li>
+					<li><a class="english"><img src="assets/images/flags/us.png" alt=""> English</a></li>
+					<li><a class="espana"><img src="assets/images/flags/cn.png" alt=""> 中文</a></li>
+				</ul>
+			</li>
+
+			<li class="dropdown dropdown-user">
+				<a class="dropdown-toggle" data-toggle="dropdown">
+					<img src="assets/images/users/face1.jpg" alt="">
+					<span>Ziwei Zhou</span>
+					<i class="caret"></i>
+				</a>
+
+				<ul class="dropdown-menu dropdown-menu-right">
+					<li><a href="#"><i class="icon-user-plus"></i> My profile</a></li>
+					<li><a href="#"><i class="icon-coins"></i> My balance</a></li>
+					<li><a href="#"><span class="badge badge-warning pull-right">58</span> <i class="icon-comment-discussion"></i> Messages</a></li>
+					<li class="divider"></li>
+					<li><a href="#"><i class="icon-cog5"></i> Account settings</a></li>
+					<li><a href="#"><i class="icon-switch2"></i> Logout</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- /main navbar -->
+
+
+<!-- Second navbar -->
+<div class="navbar navbar-default" id="navbar-second">
+	<ul class="nav navbar-nav no-border visible-xs-block">
+		<li><a class="text-center collapsed" data-toggle="collapse" data-target="#navbar-second-toggle"><i class="icon-menu7"></i></a></li>
+	</ul>
+
+	<div class="navbar-collapse collapse" id="navbar-second-toggle">
+		<ul class="nav navbar-nav navbar-nav-material">
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="icon-home position-left"></i> LISTINGS MANAGEMENT <span class="caret"></span>
+				</a>
+
+				<ul class="dropdown-menu width-200">
+					<li><a href="starters/1_col.html">One column</a></li>
+					<li><a href="starters/2_col.html">Two columns</a></li>
+				</ul>
+			</li>
+
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="icon-calendar position-left"></i> BOOKINGS <span class="caret"></span>
+				</a>
+
+				<ul class="dropdown-menu width-200">
+					<li><a href="starters/1_col.html">One column</a></li>
+					<li><a href="starters/2_col.html">Two columns</a></li>
+				</ul>
+			</li>
+
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="icon-puzzle4 position-left"></i> CLEANING <span class="caret"></span>
+				</a>
+
+				<ul class="dropdown-menu width-200">
+					<li><a href="starters/1_col.html">One column</a></li>
+					<li><a href="starters/2_col.html">Two columns</a></li>
+				</ul>
+			</li>
+
+			<li><a href="/tickets"><i class="icon-inbox-alt position-left"></i> MESSAGES </a></li>
+
+			<li><a href="index.html"><i class="icon-gear position-left"></i> DISCOUNT SETTINGS </a></li>
+
+			<li><a href="index.html"><i class="icon-question3 position-left"></i> CHECK LIST </a></li>
+		</ul>
+	</div>
+</div>
+<!-- /second navbar -->
+
+<!-- Page header -->
+<div class="page-header">
+	<div class="page-header-content">
+		<div class="page-title">
+			<h4><i class="icon-ticket position-left"></i>Messages</h4>
+
+			<ul class="breadcrumb breadcrumb-caret position-right">
+				<li><a href="index.html">Dashboard</a></li>
+				<li><a href="mail_list.html">Messages</a></li>
+				<li class="active">Inbox</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- /page header -->
+
+<router-outlet></router-outlet>

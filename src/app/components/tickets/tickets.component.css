@@ -1,0 +1,26 @@
+#page-messages .panel-heading  .heading-elements .btn-group{
+	margin: 0 0 0 20px;
+}
+#page-messages .panel-heading  .heading-elements .btn-group>.btn{
+	float: initial;
+	border-radius: 3px;
+}
+#page-messages .table-inbox .table-inbox-checkbox {
+	width: 100px;
+}
+#page-messages .table-inbox .table-inbox-name {
+	padding-left: 0px;
+}
+#page-messages .table-inbox .table-inbox-update {
+    text-align: left;
+    width: 120px;
+	padding-left: 20px;
+}
+@media (max-width: 768px) {
+	#page-messages .panel-heading  .heading-elements .btn-group{
+		margin: 20px 0 0 20px;
+	}
+	#page-messages .table-inbox .table-inbox-message, .table-inbox .table-inbox-name {
+		white-space: nowrap;
+	}
+}

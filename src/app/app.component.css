@@ -1,0 +1,16 @@
+.navbar-version {
+	float: left;
+    margin: 0;
+    padding: 13px 20px 13px 0px;
+}
+.navbar-nav-material > li > a {
+	text-transform: uppercase;
+	font-size: 12px;
+	position: relative;
+	color: #777777;
+	font-weight: bold;
+}
+.navbar-nav-material > li > a:hover, .navbar-nav-material > li > a:focus {
+	color: #333333;
+	font-weight: bold;
+}
